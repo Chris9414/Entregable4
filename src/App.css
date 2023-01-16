@@ -1,0 +1,99 @@
+.user-form button{
+  background-color: darkcyan;
+  color: white;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.app_container{
+  display: flex;
+  margin: 0 5vw;
+  padding: 30px;
+  width: 85vw;
+  justify-content: space-around;
+  gap: 1rem;
+
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 30vw;
+  padding: 20px;
+  border: 1px solid silver;
+  border-radius: 10px;
+}
+
+.name_container{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 95%;
+  justify-content: space-between;
+}
+
+.input_container input{
+  width: 90%;
+  height: 25px;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.name_container input{
+  width: 80%;
+}
+
+.user-form button{
+  background-color: darkcyan;
+  color: white;
+}
+
+.user_container{
+  width: 50vw;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid silver;
+  border-radius: 10px;
+  background-color: darkcyan;
+}
+
+ul{
+  list-style: none;
+}
+
+.user-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+.name_container h4{
+  font-size: 24px;
+}
+
+.data-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: flex-start;
+  width: 25vw;
+}
+
+.user_container h1{
+  color: white;
+}
+
+.user-card button {
+  background-color: darkcyan;
+  color: white; 
+  margin-right: 0.2rem;
+}
